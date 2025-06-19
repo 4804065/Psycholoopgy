@@ -1,8 +1,8 @@
 <?php
 $host     = 'localhost';
-$dbname   = 'wp_fp6zg';
-$user     = 'wp_cgndl';
-$password = '4D_u&qou6AV2%MH^';
+$dbname   = 'db';
+$user     = 'user';
+$password = 'password';
 
 header('Content-Type: application/json');
 
