@@ -1,0 +1,32 @@
+<head>
+    <style>
+        .search-container {
+            max-width: 90%;
+            margin: 10px auto;
+            display: flex;
+            align-items: center;
+        }
+        .search-input {
+            flex: 1;
+            padding: 10px 14px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            outline: none;
+            transition: border-color 0.2s;
+            height: 45px;
+        }
+        .search-input:focus {
+            border-color: #0078d7;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container" action="#" method="get">
+        <input class="search-input" type="text" name="q" placeholder="Buscar...">
+        <select class="search-order" name="order" style="padding:10px 14px; border:1px solid #666; border-left:0; border-radius:0 4px 4px 0; font-size:16px; outline:none; flex: 1; max-width: fit-content; height: 45px">
+            <option value="default">Orden</option>
+            <option value="alph_asc">A-Z</option>
+            <option value="alph_desc">Z-A</option>
+        </select>
+    </div>
+</body>

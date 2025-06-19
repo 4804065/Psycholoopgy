@@ -1,0 +1,20 @@
+<form action="" method="post" aria-labelledby="form-contacto">
+  
+    <label for="nombre"><strong>Nombre:</strong></label>
+    <input required type="text" id="nombre" name="nombre"
+      placeholder="Tu nombre" aria-required="true" autocomplete="name"><br>
+
+    <label for="email"><strong>Email:</strong></label>
+    <input required type="email" id="email" name="email"
+      placeholder="ejemplo@ejemplo.com" aria-required="true" autocomplete="email"><br>
+
+    <label for="telefono"><strong>Teléfono:</strong></label>
+    <input type="tel" id="telefono" name="telefono" placeholder="+34 612 345 678"
+      required aria-required="true" autocomplete="tel"><br>
+
+    <label for="mensaje"><strong>Mensaje</strong></label>
+    <textarea required name="mensaje" id="mensaje" cols="30" rows="5"
+      placeholder="Deja aquí tu mensaje." aria-required="true"></textarea><br>
+
+    <input type="submit" value="Enviar" name="enviar" aria-label="Enviar el formulario">
+</form>
