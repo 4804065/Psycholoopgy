@@ -1,4 +1,4 @@
-# psycholoopgy
+# Psycholoopgy
 Repositorio proyecto fin de ciclo.<br>
 Dominio de la página: psycholoopgy.com<br>
 Realizado por: Lucas Martínez Zambudio, Jorge Espín Riquelme y Álvaro Sabater Iniesta
