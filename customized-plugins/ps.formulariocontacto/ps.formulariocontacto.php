@@ -203,7 +203,7 @@ function psform()
         $header = "MIME-Version: 1.0\r\n";
         $header .= "Content-type: text/html; charset=UTF-8\r\n";
         $header .= "From: ejemplo@correo.com\r\n";
-        $header .= "Reply-To: javimalo80@gmail.com\r\n";
+        $header .= "Reply-To: example@example.com\r\n";
 
     $mail = mail($destinatario, $asunto, $contenido, $header);
 
