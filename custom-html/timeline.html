@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Línea de Tiempo de Formación</title>
+  <style>
+    h3 {
+  font-size: 20px;
+}
+    
+.timeline {
+  position: relative;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.linea-central {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: #4da6ff;
+  z-index: 0;
+}
+
+.estudios {
+  position: relative;
+  width: 400px;
+  margin: 20px 0;
+  z-index: 1;
+}
+
+.estudios.left {
+  left: calc(50% - 410px); /* 400 + 10px separación */
+  text-align: right;
+}
+
+.estudios.right {
+  left: calc(50% + 10px);
+  text-align: left;
+}
+
+/* -------- Responsive < 1024px -------- */
+@media screen and (max-width: 1024px) {
+  .estudios {
+    width: 320px;
+  }
+
+  .estudios.left {
+    left: calc(50% - 330px); /* 320 + 10px */
+  }
+
+  .estudios.right {
+    left: calc(50% + 10px);
+  }
+}
+
+/* -------- Responsive < 768px -------- */
+@media screen and (max-width: 768px) {
+    
+    h3 {
+        font-size: 14px;
+    }
+    
+  .estudios {
+    width: 280px;
+  }
+
+  .estudios.left {
+    left: calc(50% - 290px);
+  }
+
+  .estudios.right {
+    left: calc(50% + 10px);
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .estudios {
+    width: 150px;
+  }
+
+  .estudios.left {
+    left: calc(50% - 155px);
+  }
+
+  .estudios.right {
+    left: calc(50% + 10px);
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+}
+
+
+
+  </style>
+
+</head>
+<body>
+
+  <div class="timeline">
+    <div class="linea-central"></div>
+
+    <div class="estudios left">
+      <time>2011 - 2015</time>
+      <h3>Grado Universitario en Psicología</h3>
+    </div>
+
+    <div class="estudios right">
+      <time>2013</time>
+      <h3>Atención Primaria en Drogodependientes</h3>
+    </div>
+
+    <div class="estudios left">
+      <time>2014</time>
+      <h3>Técnicas de Relajación y Manejo de Ansiedad</h3>
+    </div>
+
+    <div class="estudios right">
+      <time>2015 - 2016</time>
+      <h3>Primeros Auxilios Psicológicos</h3>
+    </div>
+
+    <div class="estudios left">
+      <time>2016 - 2017</time>
+      <h3>Especialista en Terapia Cognitivo-Conductual</h3>
+    </div>
+
+    <div class="estudios right">
+      <time>2016 - 2018</time>
+      <h3>Máster en Psicología General Sanitaria</h3>
+    </div>
+
+    <div class="estudios left">
+      <time>2018</time>
+      <h3>Aplicaciones Terapéuticas del Mindfulness</h3>
+    </div>
+
+    <div class="estudios right">
+      <time>2019 - 2020</time>
+      <h3>Prevención e Intervención Psicológica en Adicciones</h3>
+    </div>
+
+    <div class="estudios left">
+      <time>2021</time>
+      <h3>Especialista en Terapias Contextuales y de Tercera Generación</h3>
+    </div>
+
+    <div class="estudios right">
+      <time>2022 - 2024</time>
+      <h3>Intervención y Tratamiento a través de la Terapia Estratégica Breve</h3>
+    </div>
+
+  </div>
+
+</body>
+</html>
