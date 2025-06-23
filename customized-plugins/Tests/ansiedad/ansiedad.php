@@ -10,8 +10,8 @@ defined('ABSPATH') or die('Acceso denegado');
 
 register_activation_hook(__FILE__, function () {
     global $wpdb;
-    $tabla_resultados = $wpdb->wp_fp6zg . 'ansiedad_resultados';
-    $tabla_respuestas = $wpdb->wp_fp6zg . 'ansiedad_respuestas';
+    $tabla_resultados = $wpdb->prefix . 'ansiedad_resultados';
+    $tabla_respuestas = $wpdb->prefix . 'ansiedad_respuestas';
     $charset_collate = $wpdb->get_charset_collate();
 
     require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
@@ -57,8 +57,8 @@ add_shortcode('ansiedad', function () {
         }
 
         global $wpdb;
-        $tabla_resultados = $wpdb->wp_fp6zg . 'ansiedad_resultados';
-        $tabla_respuestas = $wpdb->wp_fp6zg . 'ansiedad_respuestas';
+        $tabla_resultados = $wpdb->prefix . 'ansiedad_resultados';
+        $tabla_respuestas = $wpdb->prefix . 'ansiedad_respuestas';
 
         $wpdb->insert($tabla_resultados, [
             'nombre' => $nombre,
@@ -130,6 +130,8 @@ add_shortcode('ansiedad', function () {
                 "Algo de acuerdo" => 3,
                 "Muy de acuerdo" => 4
             ];
+
+
 
             foreach ($preguntas as $i => $pregunta) {
     echo "<div class='pregunta-bloque' data-pregunta='$i'>";

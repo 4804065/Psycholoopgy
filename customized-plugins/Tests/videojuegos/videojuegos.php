@@ -10,8 +10,8 @@ defined('ABSPATH') or die('Acceso denegado');
 
 register_activation_hook(__FILE__, function () {
     global $wpdb;
-    $tabla_resultados = $wpdb->wp_fp6zg . 'videojuegos_resultados';
-    $tabla_respuestas = $wpdb->wp_fp6zg . 'videojuegos_respuestas';
+    $tabla_resultados = $wpdb->prefix . 'videojuegos_resultados';
+    $tabla_respuestas = $wpdb->prefix . 'videojuegos_respuestas';
     $charset_collate = $wpdb->get_charset_collate();
 
     require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
@@ -57,8 +57,8 @@ add_shortcode('videojuegos', function () {
         }
 
         global $wpdb;
-        $tabla_resultados = $wpdb->wp_fp6zg . 'videojuegos_resultados';
-        $tabla_respuestas = $wpdb->wp_fp6zg . 'videojuegos_respuestas';
+        $tabla_resultados = $wpdb->prefix . 'videojuegos_resultados';
+        $tabla_respuestas = $wpdb->prefix . 'videojuegos_respuestas';
 
         $wpdb->insert($tabla_resultados, [
             'nombre' => $nombre,

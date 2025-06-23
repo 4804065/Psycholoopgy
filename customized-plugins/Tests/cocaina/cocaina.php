@@ -10,8 +10,8 @@ defined('ABSPATH') or die('Acceso denegado');
 
 register_activation_hook(__FILE__, function () {
     global $wpdb;
-    $tabla_resultados = $wpdb->wp_fp6zg . 'cocaina_resultados';
-    $tabla_respuestas = $wpdb->wp_fp6zg . 'cocaina_respuestas';
+    $tabla_resultados = $wpdb->prefix . 'cocaina_resultados';
+    $tabla_respuestas = $wpdb->prefix . 'cocaina_respuestas';
     $charset_collate = $wpdb->get_charset_collate();
 
     require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
@@ -57,8 +57,8 @@ add_shortcode('cocaina', function () {
         }
 
         global $wpdb;
-        $tabla_resultados = $wpdb->wp_fp6zg . 'cocaina_resultados';
-        $tabla_respuestas = $wpdb->wp_fp6zg . 'cocaina_respuestas';
+        $tabla_resultados = $wpdb->prefix . 'cocaina_resultados';
+        $tabla_respuestas = $wpdb->prefix . 'cocaina_respuestas';
 
         $wpdb->insert($tabla_resultados, [
             'nombre' => $nombre,
