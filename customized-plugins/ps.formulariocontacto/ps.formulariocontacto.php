@@ -47,7 +47,7 @@ function psform()
         return;
     }
 
-        $destinatario = "javimalo80@gmail.com";
+        $destinatario = "contacto@psycholoopgy.com";
         $asunto = "nuevo mensaje de $email";
 
         $contenido = '
@@ -59,22 +59,22 @@ function psform()
         body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #003366 0%, #005FAA 100%);
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   min-height: 100vh;
 }
 .mail-bg {
-  background: linear-gradient(135deg, #003366 0%, #005FAA 100%);
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   min-height: 100vh;
 }
 .mail-container {
   background: #fff;
   border-radius: 20px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 40px rgba(30,50,114,0.15);
   overflow: hidden;
   max-width: 600px;
 }
 .mail-header {
-  background: linear-gradient(90deg,#003366 0%,#005FAA 100%);
+  background: linear-gradient(90deg,#0073e6 0%,#1e3c72 100%);
   padding: 32px 0 16px 0;
   text-align: center;
 }
@@ -99,42 +99,42 @@ function psform()
 }
 .mail-table td {
   padding: 12px 0;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid #e0e7ef;
 }
 .mail-table td:last-child {
   border-bottom: none;
 }
 .mail-label {
   font-weight: 600;
-  color: #005FAA;
+  color: #1e3c72;
   font-size: 18px;
 }
 .mail-value {
-  color: #003366;
+  color: #00326B;
   font-size: 17px;
 }
 .mail-message {
-  background: #FFFFFF;
-  color: #003366;
+  background: #f0f6fb;
+  color: #00326B;
   border-radius: 10px;
   padding: 18px 16px;
   margin-top: 8px;
   font-size: 17px;
 }
 .mail-footer {
-  background: #FFFFFF;
+  background: #f0f6fb;
   padding: 20px 40px;
   text-align: center;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
 .mail-footer span {
-  color: #003366;
+  color: #0073e6;
   font-size: 15px;
   font-family: Segoe UI,Arial,sans-serif;
 }
 .mail-footer a {
-  color: #005FAA;
+  color: #1e3c72;
   text-decoration: underline;
 }
 
@@ -202,8 +202,8 @@ function psform()
 
         $header = "MIME-Version: 1.0\r\n";
         $header .= "Content-type: text/html; charset=UTF-8\r\n";
-        $header .= "From: ejemplo@correo.com\r\n";
-        $header .= "Reply-To: example@example.com\r\n";
+        $header .= "From: info@psycholoopgy.com\r\n";
+        $header .= "Reply-To: info@psycholoopgy.com\r\n";
 
     $mail = mail($destinatario, $asunto, $contenido, $header);
 
