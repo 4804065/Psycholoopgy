@@ -102,26 +102,26 @@ add_shortcode('apuestas', function () {
 
             <?php
             $preguntas = [
-                "1. Apuesto con más frecuencia de lo que tenía planeado.",
-                "2. Siento una fuerte necesidad o impulso de apostar.",
-                "3. Me he endeudado o he pedido dinero para seguir apostando.",
-                "4. He intentado dejar de apostar, pero no lo he conseguido.",
-                "5. Pienso en las apuestas incluso cuando estoy ocupado/a con otras cosas.",
-                "6. Apuesto para escapar de mis problemas o emociones negativas.",
-                "7. Siento que debo recuperar el dinero perdido apostando más.",
-                "8. He ocultado o mentido sobre cuánto apuesto o pierdo.",
-                "9. Mis relaciones personales se han visto afectadas por las apuestas.",
-                "10. Me siento culpable o avergonzado/a después de apostar.",
-                "11. Apuesto cantidades cada vez mayores para sentir la misma emoción.",
-                "12. Me pongo ansioso/a o irritable cuando no puedo apostar.",
-                "13. He perdido oportunidades importantes por priorizar el juego.",
-                "14. A menudo me digo que será 'la última vez', pero vuelvo a apostar.",
-                "15. Me he saltado trabajo, estudios u obligaciones por ir a apostar o jugar online.",
-                "16. He usado el dinero destinado a otras causas (comida, alquiler, familia) para apostar.",
-                "17. No me siento bien hasta que vuelvo a jugar.",
-                "18. Me cuesta dejar de apostar incluso cuando estoy perdiendo mucho.",
-                "19. He tenido problemas legales, financieros o familiares por las apuestas.",
-                "20. Estoy considerando buscar ayuda profesional para dejar de apostar."
+                "1. Apuesto con más frecuencia de lo que tenía planeado.*",
+                "2. Siento una fuerte necesidad o impulso de apostar.*",
+                "3. Me he endeudado o he pedido dinero para seguir apostando.*",
+                "4. He intentado dejar de apostar, pero no lo he conseguido.*",
+                "5. Pienso en las apuestas incluso cuando estoy ocupado/a con otras cosas.*",
+                "6. Apuesto para escapar de mis problemas o emociones negativas.*",
+                "7. Siento que debo recuperar el dinero perdido apostando más.*",
+                "8. He ocultado o mentido sobre cuánto apuesto o pierdo.*",
+                "9. Mis relaciones personales se han visto afectadas por las apuestas.*",
+                "10. Me siento culpable o avergonzado/a después de apostar.*",
+                "11. Apuesto cantidades cada vez mayores para sentir la misma emoción.*",
+                "12. Me pongo ansioso/a o irritable cuando no puedo apostar.*",
+                "13. He perdido oportunidades importantes por priorizar el juego.*",
+                "14. A menudo me digo que será 'la última vez', pero vuelvo a apostar.*",
+                "15. Me he saltado trabajo, estudios u obligaciones por ir a apostar o jugar online.*",
+                "16. He usado el dinero destinado a otras causas (comida, alquiler, familia) para apostar.*",
+                "17. No me siento bien hasta que vuelvo a jugar.*",
+                "18. Me cuesta dejar de apostar incluso cuando estoy perdiendo mucho.*",
+                "19. He tenido problemas legales, financieros o familiares por las apuestas.*",
+                "20. Estoy considerando buscar ayuda profesional para dejar de apostar.*"
           ];
 
             $opciones = [

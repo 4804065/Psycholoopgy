@@ -102,26 +102,26 @@ add_shortcode('fobias', function () {
 
             <?php
             $preguntas = [
-                "1. Siento un miedo intenso objetos o situaciones que otras personas consideran inofensivas.",
-                "2. Evito ciertos lugares o actividades por temor a enfrentar algo que me causa miedo.",
-                "3. Mi reacción de miedo es desproporcionada respecto al peligro real que representa lo que temo.",
-                "4. Mi cuerpo reacciona con sudoración, palpitaciones o temblores al enfrentar mi miedo.",
-                "5. Solo pensar en la situación que temo ya me genera ansiedad.",
-                "6. Intento organizar mi vida para no encontrarme con aquello que me da miedo.",
-                "7. Siento que pierdo el control cuando me enfrento a mi miedo específico.",
-                "8. El miedo que siento afecta mi vida cotidiana, laboral, social o académica.",
-                "9. Me da vergüenza reconocer el miedo que siento ante ciertas cosas.",
-                "10. Sé que mi miedo es irracional, pero no puedo evitarlo.",
-                "11. Evito hablar de aquello que me causa miedo para no sentir ansiedad.",
-                "12. He dejado de hacer actividades importantes por evitar enfrentar mi fobia.",
-                "13. Siento malestar físico intenso (náuseas, mareos, dificultad para respirar) al enfrentar mi miedo.",
-                "14. Pienso constantemente en cómo evitar situaciones relacionadas con mi temor.",
-                "15. Me siento angustiado/a durante varios días antes de enfrentar aquellos que me da miedo.",
-                "16. Las personas de mi entorno no comprenden la intensidad de mi reacción.",
-                "17. Intento enfrentar mi miedo, pero me resulta muy difícil o imposible.",
-                "18. El simple recuerdo de mi fobia me altera emocionalmente.",
-                "19. Me siento frustrado/a por nopoder superar este miedo.",
-                "20. He pensado en buscar ayuda profesional por este problema."
+                "1. Siento un miedo intenso objetos o situaciones que otras personas consideran inofensivas.*",
+                "2. Evito ciertos lugares o actividades por temor a enfrentar algo que me causa miedo.*",
+                "3. Mi reacción de miedo es desproporcionada respecto al peligro real que representa lo que temo.*",
+                "4. Mi cuerpo reacciona con sudoración, palpitaciones o temblores al enfrentar mi miedo.*",
+                "5. Solo pensar en la situación que temo ya me genera ansiedad.*",
+                "6. Intento organizar mi vida para no encontrarme con aquello que me da miedo.*",
+                "7. Siento que pierdo el control cuando me enfrento a mi miedo específico.*",
+                "8. El miedo que siento afecta mi vida cotidiana, laboral, social o académica.*",
+                "9. Me da vergüenza reconocer el miedo que siento ante ciertas cosas.*",
+                "10. Sé que mi miedo es irracional, pero no puedo evitarlo.*",
+                "11. Evito hablar de aquello que me causa miedo para no sentir ansiedad.*",
+                "12. He dejado de hacer actividades importantes por evitar enfrentar mi fobia.*",
+                "13. Siento malestar físico intenso (náuseas, mareos, dificultad para respirar) al enfrentar mi miedo.*",
+                "14. Pienso constantemente en cómo evitar situaciones relacionadas con mi temor.*",
+                "15. Me siento angustiado/a durante varios días antes de enfrentar aquellos que me da miedo.*",
+                "16. Las personas de mi entorno no comprenden la intensidad de mi reacción.*",
+                "17. Intento enfrentar mi miedo, pero me resulta muy difícil o imposible.*",
+                "18. El simple recuerdo de mi fobia me altera emocionalmente.*",
+                "19. Me siento frustrado/a por nopoder superar este miedo.*",
+                "20. He pensado en buscar ayuda profesional por este problema.*"
             ];
 
             $opciones = [

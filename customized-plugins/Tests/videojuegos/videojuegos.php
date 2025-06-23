@@ -102,26 +102,26 @@ add_shortcode('videojuegos', function () {
 
             <?php
             $preguntas = [
-                "1. Paso muchas más horas jugando de las que tenía planeado.",
-                "2. Pienso constantemente en los videojuegos incluso cuando no estoy jugando.",
-                "3. Me irrito o pongo ansioso/a si no puedo jugar.",
-                "4. He dejado de hacer tareas o compromisos importantes por jugar.",
-                "5. Juego para escapar de mis problemas o emociones negativas.",
-                "6. He mentido sobre cuánto tiempo paso jugando.",
-                "7. Me siento culpable o frustrado/a después de largas sesiones de juego.",
-                "8. He perdido interés en otras actividades que antes disfrutaba.",
-                "9. Mis relaciones personales se han deteriorado por mi forma de jugar.",
-                "10. He tenido discusiones familiares por el tiempo que paso jugando.",
-                "11. Me cuesta dejar de jugar aunque quiera hacerlo.",
-                "12. Juego durante la noche y me afecta el sueño o el rendimiento diario.",
-                "13. Me siento más feliz o realizado/a en los videojuegos que en la vida real.",
-                "14. Juego incluso cuando sé que debería estar haciendo otras cosas.",
-                "15. He intentado reducir el tiempo de juego sin éxito.",
-                "16. Me aíslo socialmente y paso mucho tiempo frente a la pantalla.",
-                "17. He descuidado mi salud física o mental por jugar en exceso.",
-                "18. Solo me siento bien o tranquilo/a cuando estoy jugando.",
-                "19. A veces juego para no pensar en lo que me preocupa.",
-                "20. Estoy considerando buscar ayuda profesional por mi relación con los videojuegos."
+                "1. Paso muchas más horas jugando de las que tenía planeado.*",
+                "2. Pienso constantemente en los videojuegos incluso cuando no estoy jugando.*",
+                "3. Me irrito o pongo ansioso/a si no puedo jugar.*",
+                "4. He dejado de hacer tareas o compromisos importantes por jugar.*",
+                "5. Juego para escapar de mis problemas o emociones negativas.*",
+                "6. He mentido sobre cuánto tiempo paso jugando.*",
+                "7. Me siento culpable o frustrado/a después de largas sesiones de juego.*",
+                "8. He perdido interés en otras actividades que antes disfrutaba.*",
+                "9. Mis relaciones personales se han deteriorado por mi forma de jugar.*",
+                "10. He tenido discusiones familiares por el tiempo que paso jugando.*",
+                "11. Me cuesta dejar de jugar aunque quiera hacerlo.*",
+                "12. Juego durante la noche y me afecta el sueño o el rendimiento diario.*",
+                "13. Me siento más feliz o realizado/a en los videojuegos que en la vida real.*",
+                "14. Juego incluso cuando sé que debería estar haciendo otras cosas.*",
+                "15. He intentado reducir el tiempo de juego sin éxito.*",
+                "16. Me aíslo socialmente y paso mucho tiempo frente a la pantalla.*",
+                "17. He descuidado mi salud física o mental por jugar en exceso.*",
+                "18. Solo me siento bien o tranquilo/a cuando estoy jugando.*",
+                "19. A veces juego para no pensar en lo que me preocupa.*",
+                "20. Estoy considerando buscar ayuda profesional por mi relación con los videojuegos.*"
           ];
 
             $opciones = [

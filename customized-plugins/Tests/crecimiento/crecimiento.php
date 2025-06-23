@@ -100,26 +100,26 @@ add_shortcode('crecimiento', function () {
 
             <?php
             $preguntas = [
-                "1.Estoy comprometido/a con mejorar aspectos de mi vida personal y emocional.",
-                "2. Me esfuerzo por conocerme mejor a mí mismo/a.",
-                "3. Reconzoco mis errores y los utilizo como oportunidades de aprendizaje.",
-                "4. Me pongo metas personales claras y trabajo activamente para alcanzarlas.",
-                "5. Dedico tiempo regularmente a reflexionar sobre mi bienestar.",
-                "6. Busco salir de mi zona  de confort para crecer.",
-                "7. Trato de mantener una actitud positiva ante los retos.",
-                "8. Estoy abierto/a a recibir retroalimentación constructiva.",
-                "9. Me permito cambiar de opinión cuando descubro nuevas perspectivas.",
-                "10. Identifico mis fortalezas y las utilizo para avanzar.",
-                "11. Aprendo de las dificultades sin quedarme estancado/a en ellas.",
-                "12. Me siento en proceso de evolución constante.",
-                "13. Cuido mi salud mental, emocional y física como parte de mi desarrollo.",
-                "14. Acepto las emociones difíciles como parte del crecimiento.",
-                "15. Tengo relaciones que nutren mi desarrollo personal.",
-                "16. Me responsabilizo de mis decisiones y sus consecuencias.",
-                "17. Busco recursos (libros, cursos, terapia, etc.) para seguir creciendo.",
-                "18. Celebro mis logros personales, por pequeños que sean.",
-                "19. Trato de vivir de forma coherente con mis valores.",
-                "20. Siento que avanzo hacia una mejor versión de mí mismo/a."
+                "1.Estoy comprometido/a con mejorar aspectos de mi vida personal y emocional.*",
+                "2. Me esfuerzo por conocerme mejor a mí mismo/a.*",
+                "3. Reconzoco mis errores y los utilizo como oportunidades de aprendizaje.*",
+                "4. Me pongo metas personales claras y trabajo activamente para alcanzarlas.*",
+                "5. Dedico tiempo regularmente a reflexionar sobre mi bienestar.*",
+                "6. Busco salir de mi zona  de confort para crecer.*",
+                "7. Trato de mantener una actitud positiva ante los retos.*",
+                "8. Estoy abierto/a a recibir retroalimentación constructiva.*",
+                "9. Me permito cambiar de opinión cuando descubro nuevas perspectivas.*",
+                "10. Identifico mis fortalezas y las utilizo para avanzar.*",
+                "11. Aprendo de las dificultades sin quedarme estancado/a en ellas.*",
+                "12. Me siento en proceso de evolución constante.*",
+                "13. Cuido mi salud mental, emocional y física como parte de mi desarrollo.*",
+                "14. Acepto las emociones difíciles como parte del crecimiento.*",
+                "15. Tengo relaciones que nutren mi desarrollo personal.*",
+                "16. Me responsabilizo de mis decisiones y sus consecuencias.*",
+                "17. Busco recursos (libros, cursos, terapia, etc.) para seguir creciendo.*",
+                "18. Celebro mis logros personales, por pequeños que sean.*",
+                "19. Trato de vivir de forma coherente con mis valores.*",
+                "20. Siento que avanzo hacia una mejor versión de mí mismo/a.*"
             ];
 
             $opciones = [

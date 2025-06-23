@@ -102,26 +102,26 @@ add_shortcode('alcoholismo', function () {
 
             <?php
             $preguntas = [
-                "1. Siento que necesito beber alcohol para relajarme o sentirme bien.",
-                "2. He intentado reducir o dejar el alcohol, pero no lo he conseguido.",
-                "3. Me resulta difícil controlar la cantidad que bebo una vez que empiezo.",
-                "4. He tenido problemas personales, laborales o académicos por mi consumo de alcohol.",
-                "5. He bebido en momentos o lugares inapropiados (por ejemplo, en el trabajo, antes de conducir).",
-                "6. Me he sentido culpable o avergonzado/a después de beber.",
-                "7. He mentido a otros sobre cuánto o con qué frecuencia bebo.",
-                "8. He tenido lagunas mentales o pérdidas de memoria tras beber.",
-                "9. He necesitado beber más cantidad que antes para sentir el mismo efecto.",
-                "10. He tenido síntomas físicos o emocionales desagradables al dejar de beber.",
-                "11. He bebido a solas o en secreto con frecuencia.",
-                "12. El alcohol ha interferido en mis relaciones personales.",
-                "13. He puesto en riesgo mi salud o la de otros al beber (por ejemplo, al conducir ebrio/a).",
-                "14. Siento ansiedad o irritabilidad cuando no puedo beber.",
-                "15. He dejado de  hacer actividades que antes disfrutaba por priorizar el consumo.",
-                "16. Me cuesta imaginar una reunión social sin alcohol.",
-                "17. El consumo de alcohol se ha convertido en parte central de mi rutina.",
-                "18. He recibido advertencias o preocupaciones de familiares o amigos por mi forma de beber.",
-                "19. Me levanté sintiéndome mal por haber bebido la noche anterior.",
-                "20. He considerado buscar ayuda profesional por mi relación con el alcohol."
+                "1. Siento que necesito beber alcohol para relajarme o sentirme bien.*",
+                "2. He intentado reducir o dejar el alcohol, pero no lo he conseguido.*",
+                "3. Me resulta difícil controlar la cantidad que bebo una vez que empiezo.*",
+                "4. He tenido problemas personales, laborales o académicos por mi consumo de alcohol.*",
+                "5. He bebido en momentos o lugares inapropiados (por ejemplo, en el trabajo, antes de conducir).*",
+                "6. Me he sentido culpable o avergonzado/a después de beber.*",
+                "7. He mentido a otros sobre cuánto o con qué frecuencia bebo.*",
+                "8. He tenido lagunas mentales o pérdidas de memoria tras beber.*",
+                "9. He necesitado beber más cantidad que antes para sentir el mismo efecto.*",
+                "10. He tenido síntomas físicos o emocionales desagradables al dejar de beber.*",
+                "11. He bebido a solas o en secreto con frecuencia.*",
+                "12. El alcohol ha interferido en mis relaciones personales.*",
+                "13. He puesto en riesgo mi salud o la de otros al beber (por ejemplo, al conducir ebrio/a).*",
+                "14. Siento ansiedad o irritabilidad cuando no puedo beber.*",
+                "15. He dejado de  hacer actividades que antes disfrutaba por priorizar el consumo.*",
+                "16. Me cuesta imaginar una reunión social sin alcohol.*",
+                "17. El consumo de alcohol se ha convertido en parte central de mi rutina.*",
+                "18. He recibido advertencias o preocupaciones de familiares o amigos por mi forma de beber.*",
+                "19. Me levanté sintiéndome mal por haber bebido la noche anterior.*",
+                "20. He considerado buscar ayuda profesional por mi relación con el alcohol.*"
           ];
 
             $opciones = [

@@ -102,26 +102,26 @@ add_shortcode('sexo', function () {
 
             <?php
             $preguntas = [
-                    "1. Pienso con frecuencia en el sexo, incluso cuando no quiero hacerlo.",
-                    "2. He intentado reducir mis conductas sexuales sin lograrlo.",
-                    "3. Uso el sexo para aliviar emociones como ansiedad, tristeza o estrés.",	
-                    "4. Me siento culpable o avergonzado/a después de ciertas conductas sexuales.",
-                    "5. He puesto en riesgo mi salud, pareja o trabajo por conductas sexuales.",
-                    "6. Me cuesta controlar el impulso de buscar sexo o estimulación sexual.",
-                    "7. Veo pornografía con tanta frecuencia que interfiere en mi día a día.",
-                    "8. He tenido encuentro sexuales impulsivos sin considerar las consecuencias.",
-                    "9. Me he sentido vacío/a o insatisfecho/a después de relaciones sexuales.",
-                    "10. A veces me aíslo para dedicarme exclusivamente a prácticas sexuales.",
-                    "11. Mis relaciones personales se han deteriorado por mi comportamiento sexual.",
-                    "12. Siento ansiedad o irritabilidad si no puedo tener sexo o estimulación.",
-                    "13. He mentido u ocultado conductas sexuales a personas cercanas.",
-                    "14. Busco sexo incluso cuando sé que no es lo adecuado en ese momento.",
-                    "15. He dejado de cumplir responsabilidades por buscar gratificación sexual.",
-                    "16. Mis comportamientos sexuales han aumentado en intensidad o frecuencia con el tiempo.",
-                    "17. Me preocupa perder el control sobre mis impulsos sexuales.",
-                    "18. He sentido que necesito más estimulación para sentir el mismo placer.",
-                    "19. Me resulta difícil disfrutar de la intimidad sin recurrir a fantasías o prácticas compulsivas.",
-                    "20. Estoy considerando buscar ayuda profesional por mi comportamiento sexual."
+                    "1. Pienso con frecuencia en el sexo, incluso cuando no quiero hacerlo.*",
+                    "2. He intentado reducir mis conductas sexuales sin lograrlo.*",
+                    "3. Uso el sexo para aliviar emociones como ansiedad, tristeza o estrés.*",	
+                    "4. Me siento culpable o avergonzado/a después de ciertas conductas sexuales.*",
+                    "5. He puesto en riesgo mi salud, pareja o trabajo por conductas sexuales.*",
+                    "6. Me cuesta controlar el impulso de buscar sexo o estimulación sexual.*",
+                    "7. Veo pornografía con tanta frecuencia que interfiere en mi día a día.*",
+                    "8. He tenido encuentro sexuales impulsivos sin considerar las consecuencias.*",
+                    "9. Me he sentido vacío/a o insatisfecho/a después de relaciones sexuales.*",
+                    "10. A veces me aíslo para dedicarme exclusivamente a prácticas sexuales.*",
+                    "11. Mis relaciones personales se han deteriorado por mi comportamiento sexual.*",
+                    "12. Siento ansiedad o irritabilidad si no puedo tener sexo o estimulación.*",
+                    "13. He mentido u ocultado conductas sexuales a personas cercanas.*",
+                    "14. Busco sexo incluso cuando sé que no es lo adecuado en ese momento.*",
+                    "15. He dejado de cumplir responsabilidades por buscar gratificación sexual.*",
+                    "16. Mis comportamientos sexuales han aumentado en intensidad o frecuencia con el tiempo.*",
+                    "17. Me preocupa perder el control sobre mis impulsos sexuales.*",
+                    "18. He sentido que necesito más estimulación para sentir el mismo placer.*",
+                    "19. Me resulta difícil disfrutar de la intimidad sin recurrir a fantasías o prácticas compulsivas.*",
+                    "20. Estoy considerando buscar ayuda profesional por mi comportamiento sexual.*"
             ];
 
             $opciones = [

@@ -102,26 +102,26 @@ add_shortcode('movil', function () {
 
             <?php
             $preguntas = [
-                "1. Reviso el móvil constantemente, incluso sin notificaciones.",
-                "2. Me siento ansioso/a o incómodo/a cuando no tengo el móvil cerca.",
-                "3. Paso más tiempo en redes sociales del que considero saludable.",
-                "4. He intentado reducir el uso del móvil sin éxito.",
-                "5. Me distraigo fácilmente por el móvil cuando estoy trabajando, estudiando o con otras personas.",
-                "6. Consulto redes sociales apenas me despierto y antes de dormir.",
-                "7. Me siento mal o inquieto/a si no puedo conectarme.",
-                "8. Comparo constantemente mi vida con la de otros en redes sociales.",
-                "9. El uso del móvil ha afectado negativamente mi rendimiento o relaciones.",
-                "10. Me siento más conectado/a al mundo virtual que al entorno real.",
-                "11. Publico contenido buscanso aprobación o validación frecuente.",
-                "12. Me resulta difícil disfrutar actividades sin usar el móvil.",
-                "13. He recibido comentarios negativos sobre cuánto uso el móvil o redes.",
-                "14. Me distraigo con el móvil incluso en momentos importantes o íntimos.",
-                "15. Me aíslo socialmente porque prefiero interactuar por redes.",
-                "16. He puesto en riesgo mi seguridad por usar el móvil (por ejemplo, al cruzar o conducir).",
-                "17. Me molesto cuando me interrumpen mientras uso el móvil.",
-                "18. Siento que pierdo el tiempo pero no dejo de usar redes sociales.",
-                "19. Recurro al móvil para evitar pensar o sentir emociones incómodas.",
-                "20. Estoy considerando buscar ayuda profesional por mi uso del móvil o redes sociales."
+                "1. Reviso el móvil constantemente, incluso sin notificaciones.*",
+                "2. Me siento ansioso/a o incómodo/a cuando no tengo el móvil cerca.*",
+                "3. Paso más tiempo en redes sociales del que considero saludable.*",
+                "4. He intentado reducir el uso del móvil sin éxito.*",
+                "5. Me distraigo fácilmente por el móvil cuando estoy trabajando, estudiando o con otras personas.*",
+                "6. Consulto redes sociales apenas me despierto y antes de dormir.*",
+                "7. Me siento mal o inquieto/a si no puedo conectarme.*",
+                "8. Comparo constantemente mi vida con la de otros en redes sociales.*",
+                "9. El uso del móvil ha afectado negativamente mi rendimiento o relaciones.*",
+                "10. Me siento más conectado/a al mundo virtual que al entorno real.*",
+                "11. Publico contenido buscanso aprobación o validación frecuente.*",
+                "12. Me resulta difícil disfrutar actividades sin usar el móvil.*",
+                "13. He recibido comentarios negativos sobre cuánto uso el móvil o redes.*",
+                "14. Me distraigo con el móvil incluso en momentos importantes o íntimos.*",
+                "15. Me aíslo socialmente porque prefiero interactuar por redes.*",
+                "16. He puesto en riesgo mi seguridad por usar el móvil (por ejemplo, al cruzar o conducir).*",
+                "17. Me molesto cuando me interrumpen mientras uso el móvil.*",
+                "18. Siento que pierdo el tiempo pero no dejo de usar redes sociales.*",
+                "19. Recurro al móvil para evitar pensar o sentir emociones incómodas.*",
+                "20. Estoy considerando buscar ayuda profesional por mi uso del móvil o redes sociales.*"
             ];
 
             $opciones = [

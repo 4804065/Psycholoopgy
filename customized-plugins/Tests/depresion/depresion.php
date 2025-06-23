@@ -102,26 +102,26 @@ add_shortcode('depresion', function () {
 
             <?php
             $preguntas = [
-                "1. Me siento triste o vacío/a la mayor parte del tiempo.",
-                "2. He perdido el interés o el placer por actividades que antes difrutaba.",
-                "3. Me cuesta encontrar motivación para realizar tareas diarias.",
-                "4. Me siento cansado/a o sin energía casi todos los días.",
-                "5. Tengo pensamientos negativos constantes sobre mí mismo/a.",
-                "6. Me siento inútil o sin valor.",
-                "7. Tengo dificultades para concentrarme o tomar decisiones.",
-                "8. He notado cambios en mi apetito (comer mucho más o mucho menos).",
-                "9. Tengo problemas para dormir o duermo demasiado.",
-                "10. Siento que mi vida carece de sentido.",
-                "11. Me aíslo de los demás o evito el contacto social.",
-                "12. Me irrito o me enfado con facilidad sin una causa clara.",
-                "13. Me siento culpable sin motivo aparente.",
-                "14. Me resulta difícil disfrutar de momentos agradables, incluso con seres queridos.",
-                "15. Siento que nada va a mejorar, por más que lo intente.",
-                "16. Pienso que estoy fallando en aspectos importantes de mi vida.",
-                "17. Me siento lento/a en mis pensamientos o movimientos.",
-                "18. Tengo pensamientos sobre hacerme daño o desaparecer.",
-                "19. Me cuesta expresar lo que siento a las personas cercanas.",
-                "20. He considerado buscar ayuda profesional por cómo me siento."
+                "1. Me siento triste o vacío/a la mayor parte del tiempo.*",
+                "2. He perdido el interés o el placer por actividades que antes difrutaba.*",
+                "3. Me cuesta encontrar motivación para realizar tareas diarias.*",
+                "4. Me siento cansado/a o sin energía casi todos los días.*",
+                "5. Tengo pensamientos negativos constantes sobre mí mismo/a.*",
+                "6. Me siento inútil o sin valor.*",
+                "7. Tengo dificultades para concentrarme o tomar decisiones.*",
+                "8. He notado cambios en mi apetito (comer mucho más o mucho menos).*",
+                "9. Tengo problemas para dormir o duermo demasiado.*",
+                "10. Siento que mi vida carece de sentido.*",
+                "11. Me aíslo de los demás o evito el contacto social.*",
+                "12. Me irrito o me enfado con facilidad sin una causa clara.*",
+                "13. Me siento culpable sin motivo aparente.*",
+                "14. Me resulta difícil disfrutar de momentos agradables, incluso con seres queridos.*",
+                "15. Siento que nada va a mejorar, por más que lo intente.*",
+                "16. Pienso que estoy fallando en aspectos importantes de mi vida.*",
+                "17. Me siento lento/a en mis pensamientos o movimientos.*",
+                "18. Tengo pensamientos sobre hacerme daño o desaparecer.*",
+                "19. Me cuesta expresar lo que siento a las personas cercanas.*",
+                "20. He considerado buscar ayuda profesional por cómo me siento.*"
           ];
 
             $opciones = [

@@ -102,26 +102,26 @@ add_shortcode('cocaina', function () {
 
             <?php
             $preguntas = [
-                "1. He consumido cocaína en momentos en los que no era apropiado o seguro hacerlo.",
-                "2. Siento que necesito consumir para sentirme bien o funcionar.",
-                "3. He intentado dejar de consumir cocaína, pero no lo he logrado.",
-                "4. El consumo de cocaína ha afectado negativamente mi salud física o mental.",
-                "5. He tenido problemas con familiares o amigos por mi consumo.",
-                "6. He mentido o escondido el consumo de cocaína a personas cercanas.",
-                "7. He gastado más dinero del que puedo permitirme en cocaína.",
-                "8. He tenido problemas legales, laborales o académicos relacionados con el consumo.",
-                "9. Después de consumir, siento culpa, vergüenza o vacío.",
-                "10. Mi tolerancia ha aumentado: necesito más cantidad para sentir los mismos efectos.",
-                "11. Me he expuesto a situaciones peligrosas bajo los efectos de la cocaína.",
-                "12. He descuidado responsabilidades importantes por consumir.",
-                "13. Pienso frecuentemente en volver a consumir, incluso cuando no lo hago.",
-                "14. Me cuesta disfrutar de actividades si no estoy bajo los efectos de la cocaína.",
-                "15. Me he prometido a mí mismo/a dejar de consumir y he vuelto a hacerlo.",
-                "16. Mi estado de ánimo cambia drásticamente cuando no consumo.",
-                "17. El consumo me ha alejado de personas o actividades que antes eran importantes para mí.",
-                "18. He usado cocaína como forma de escapar de mis problemas emocionales.",
-                "19. Me resulta difícil imaginar mi vida sin cocaína.",
-                "20. Estoy considerando buscar ayuda profesional por mi consumo."
+                "1. He consumido cocaína en momentos en los que no era apropiado o seguro hacerlo.*",
+                "2. Siento que necesito consumir para sentirme bien o funcionar.*",
+                "3. He intentado dejar de consumir cocaína, pero no lo he logrado.*",
+                "4. El consumo de cocaína ha afectado negativamente mi salud física o mental.*",
+                "5. He tenido problemas con familiares o amigos por mi consumo.*",
+                "6. He mentido o escondido el consumo de cocaína a personas cercanas.*",
+                "7. He gastado más dinero del que puedo permitirme en cocaína.*",
+                "8. He tenido problemas legales, laborales o académicos relacionados con el consumo.*",
+                "9. Después de consumir, siento culpa, vergüenza o vacío.*",
+                "10. Mi tolerancia ha aumentado: necesito más cantidad para sentir los mismos efectos.*",
+                "11. Me he expuesto a situaciones peligrosas bajo los efectos de la cocaína.*",
+                "12. He descuidado responsabilidades importantes por consumir.*",
+                "13. Pienso frecuentemente en volver a consumir, incluso cuando no lo hago.*",
+                "14. Me cuesta disfrutar de actividades si no estoy bajo los efectos de la cocaína.*",
+                "15. Me he prometido a mí mismo/a dejar de consumir y he vuelto a hacerlo.*",
+                "16. Mi estado de ánimo cambia drásticamente cuando no consumo.*",
+                "17. El consumo me ha alejado de personas o actividades que antes eran importantes para mí.*",
+                "18. He usado cocaína como forma de escapar de mis problemas emocionales.*",
+                "19. Me resulta difícil imaginar mi vida sin cocaína.*",
+                "20. Estoy considerando buscar ayuda profesional por mi consumo.*"
           ];
 
             $opciones = [

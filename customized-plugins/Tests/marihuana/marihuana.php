@@ -102,26 +102,26 @@ add_shortcode('marihuana', function () {
 
             <?php
             $preguntas = [
-                "1. Siento que necesito consumir marihuana para relajarme o estar bien.",
-                "2. He intentado dejar o reducir el consumo, pero no lo he conseguido.",
-                "3. Consumo marihuana casi todos los días o varias veces por semana.",
-                "4. Me molesta cuando no tengo acceso a la marihuana.",
-                "5. He dejado de hacer actividades importantes por consumir.",
-                "6. He tenido conflictos con familiares o amigos por mi consumo.",
-                "7. Me cuesta concentrarme o rendir si no he consumido.",
-                "8. He perdido interés por cosas que antes me motivaban.",
-                "9. Consumo marihuana para evadirme de mis emociones o problemas.",
-                "10. He fumado en momentos o lugares inapropiados.",
-                "11. He desarrollado tolerancia: necesito más cantidad para logar el mismo efecto.",
-                "12. Siento malestar (ansiedad, irritabilidad, insomnio) cuando dejo de consumir.",
-                "13. El consumo afecta a mi memoria, motivación o desempeño diario.",
-                "14. He priorizado el consumo frente a otras responsabilidades.",
-                "15. Me he aislado socialmente o me relaciono solo con personas que también consumen.",
-                "16. Pienso con frecuencia en cuándo y cómo voy a consumir.",
-                "17. He mentido sobre mi consumo o lo he ocultado.",
-                "18. Me siento frustrado/a por no poder controlar mi consumo.",
-                "19. He tenido problemas en el trabajo, estudios o relaciones debido al consumo.",
-                "20. Estoy considerando buscar ayuda profesional para dejar de consumir."
+                "1. Siento que necesito consumir marihuana para relajarme o estar bien.*",
+                "2. He intentado dejar o reducir el consumo, pero no lo he conseguido.*",
+                "3. Consumo marihuana casi todos los días o varias veces por semana.*",
+                "4. Me molesta cuando no tengo acceso a la marihuana.*",
+                "5. He dejado de hacer actividades importantes por consumir.*",
+                "6. He tenido conflictos con familiares o amigos por mi consumo.*",
+                "7. Me cuesta concentrarme o rendir si no he consumido.*",
+                "8. He perdido interés por cosas que antes me motivaban.*",
+                "9. Consumo marihuana para evadirme de mis emociones o problemas.*",
+                "10. He fumado en momentos o lugares inapropiados.*",
+                "11. He desarrollado tolerancia: necesito más cantidad para logar el mismo efecto.*",
+                "12. Siento malestar (ansiedad, irritabilidad, insomnio) cuando dejo de consumir.*",
+                "13. El consumo afecta a mi memoria, motivación o desempeño diario.*",
+                "14. He priorizado el consumo frente a otras responsabilidades.*",
+                "15. Me he aislado socialmente o me relaciono solo con personas que también consumen.*",
+                "16. Pienso con frecuencia en cuándo y cómo voy a consumir.*",
+                "17. He mentido sobre mi consumo o lo he ocultado.*",
+                "18. Me siento frustrado/a por no poder controlar mi consumo.*",
+                "19. He tenido problemas en el trabajo, estudios o relaciones debido al consumo.*",
+                "20. Estoy considerando buscar ayuda profesional para dejar de consumir.*"
           ];
 
             $opciones = [

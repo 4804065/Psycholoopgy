@@ -102,26 +102,26 @@ add_shortcode('compras', function () {
 
             <?php
             $preguntas = [
-                "1. Siento una necesidad urgente de comprar, incluso cuando no lo necesito.",
-                "2. Compro cosas aunque sé que no puedo permitírmelo.",
-                "3. Me siento culpable o avergonzado/a después de hacer compras.",
-                "4. Uso las compras como forma de aliviar el estrés, la tristexa o el aburrimiento.",
-                "5. He intentado controlar mis compras, pero no lo consigo.",
-                "6. A menudo compro por impulso, sin planearlo ni pensarlo.",
-                "7. He mentido sobre mis compras o el dinero que he gastado.",
-                "8. Mi comportamiento de compra ha generado problemas económicos.",
-                "9. Me siento frustrado/a o ansioso/a cuando no puedo comprar.",
-                "10. A veces escondo lo que compro para evitar conflictos.",
-                "11. Compro productos repetidos o innecesarios, y luego no los uso.",
-                "12. Las compras ocupan un lugar central en mi día a día.",
-                "13. Mis compras han afectado negativamente mis relaciones personales.",
-                "14. Me he endeudado o he pedido dinero prestado para seguir comprando.",
-                "15. Me cuesta resistir ofertas o promociones, aunque no necesite nada.",
-                "16. Siento una especie de 'subidón' al comprar, que luego se desvanece.",
-                "17. Me he saltado obligaciones importantes por salir de compras.",
-                "18. He sentido que pierdo el control cuando estoy comprando.",
-                "19. Pienso frecuentemente en lo que voy a comprar o en cómo conseguir dinero para hacerlo.",
-                "20. Estoy considerando buscar ayuda profesional por mis hábitos de compra."
+                "1. Siento una necesidad urgente de comprar, incluso cuando no lo necesito.*",
+                "2. Compro cosas aunque sé que no puedo permitírmelo.*",
+                "3. Me siento culpable o avergonzado/a después de hacer compras.*",
+                "4. Uso las compras como forma de aliviar el estrés, la tristexa o el aburrimiento.*",
+                "5. He intentado controlar mis compras, pero no lo consigo.*",
+                "6. A menudo compro por impulso, sin planearlo ni pensarlo.*",
+                "7. He mentido sobre mis compras o el dinero que he gastado.*",
+                "8. Mi comportamiento de compra ha generado problemas económicos.*",
+                "9. Me siento frustrado/a o ansioso/a cuando no puedo comprar.*",
+                "10. A veces escondo lo que compro para evitar conflictos.*",
+                "11. Compro productos repetidos o innecesarios, y luego no los uso.*",
+                "12. Las compras ocupan un lugar central en mi día a día.*",
+                "13. Mis compras han afectado negativamente mis relaciones personales.*",
+                "14. Me he endeudado o he pedido dinero prestado para seguir comprando.*",
+                "15. Me cuesta resistir ofertas o promociones, aunque no necesite nada.*",
+                "16. Siento una especie de 'subidón' al comprar, que luego se desvanece.*",
+                "17. Me he saltado obligaciones importantes por salir de compras.*",
+                "18. He sentido que pierdo el control cuando estoy comprando.*",
+                "19. Pienso frecuentemente en lo que voy a comprar o en cómo conseguir dinero para hacerlo.*",
+                "20. Estoy considerando buscar ayuda profesional por mis hábitos de compra.*"
           ];
 
             $opciones = [

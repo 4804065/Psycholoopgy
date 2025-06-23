@@ -102,26 +102,26 @@ add_shortcode('ansiedad', function () {
 
             <?php
             $preguntas = [
-                "1. Me siento nervioso/a o inquieto/a sin razón clara.",
-                "2. Me cuesta relajarme, incluso cuando no hay motivos evidentes de tensión.",
-                "3. Tengo pensamientos repetitivos que no puedo controlar.",
-                "4. Me resulta difícil concentrarme o mantener la atención.",
-                "5. Me preocupo en exceso por cosas cotidianas.",
-                "6. Tengo dificultades para dormir por sentirme agitado/a o ansioso/a.",
-                "7. Experimento síntomas físicos como palpitaciones o sudoración sin causa médica.",
-                "8. Evito ciertas situaciones por temor a sentir ansiedad.",
-                "9. Me siento abrumado/a por las responsabilidades diarias.",
-                "10. Suelo anticipar que ocurrirá algo malo, aunque no haya razones claras.",
-                "11. Tengo molestias físicas frecuentes (como dolor de cabeza o tensión muscular) sin explicación aparente.",
-                "12. Siento que necesito tener el control para no perder la calma.",
-                "13. Me irrito fácilmente o cambio de humor de forma repentina.",
-                "14. La ansiedad afecta mi vida laboral, académica o social.",
-                "15. Dudo mucho al tomar decisiones por miedo a equivocarme.",
-                "16. Me siento inseguro/a respecto a mis capacidades o decisiones.",
-                "17. Me cuesta disfrutar de los momentos agradables por pensar en lo que podría salir mal.",
-                "18. Siento opresión en el pecho o dificultad para respirar cuando estoy tenso/a.",
-                "19. Tiendo a imaginar escenarios negativos con frecuencia.",
-                "20. Necesito la aprobación de los demás para sentirme tranquilo/a."
+                "1. Me siento nervioso/a o inquieto/a sin razón clara.*",
+                "2. Me cuesta relajarme, incluso cuando no hay motivos evidentes de tensión.*",
+                "3. Tengo pensamientos repetitivos que no puedo controlar.*",
+                "4. Me resulta difícil concentrarme o mantener la atención.*",
+                "5. Me preocupo en exceso por cosas cotidianas.*",
+                "6. Tengo dificultades para dormir por sentirme agitado/a o ansioso/a.*",
+                "7. Experimento síntomas físicos como palpitaciones o sudoración sin causa médica.*",
+                "8. Evito ciertas situaciones por temor a sentir ansiedad.*",
+                "9. Me siento abrumado/a por las responsabilidades diarias.*",
+                "10. Suelo anticipar que ocurrirá algo malo, aunque no haya razones claras.*",
+                "11. Tengo molestias físicas frecuentes (como dolor de cabeza o tensión muscular) sin explicación aparente.*",
+                "12. Siento que necesito tener el control para no perder la calma.*",
+                "13. Me irrito fácilmente o cambio de humor de forma repentina.*",
+                "14. La ansiedad afecta mi vida laboral, académica o social.*",
+                "15. Dudo mucho al tomar decisiones por miedo a equivocarme.*",
+                "16. Me siento inseguro/a respecto a mis capacidades o decisiones.*",
+                "17. Me cuesta disfrutar de los momentos agradables por pensar en lo que podría salir mal.*",
+                "18. Siento opresión en el pecho o dificultad para respirar cuando estoy tenso/a.*",
+                "19. Tiendo a imaginar escenarios negativos con frecuencia.*",
+                "20. Necesito la aprobación de los demás para sentirme tranquilo/a.*"
             ];
 
             $opciones = [
